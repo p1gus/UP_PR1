@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Калькуль</title>
+</head>
+<body>
+    <form>
+
+        <label> Первое число </label>
+        <input type="number" name="first">
+
+        <select name="action">
+            <option id="+" type="submit" value="+">+</option>
+            <option id="-" type="submit" value="-">-</option>
+            <option id="*" type="submit" value="*">*</option>
+            <option id="/" type="submit" value="/">/</option>
+        </select>
+
+        <label> Второе число </label>
+        <input type="number" name="second">
+
+
+
+        <input type="submit" id=buttonGET name="submit" formaction="/home" value="GET" formmethod="get">
+
+        <input type="submit" id="buttonPOST" name="submit" formaction="/home" value="POST" formmethod="post">
+    </form>
+</body>
+</html>
